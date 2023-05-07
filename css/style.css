@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(140deg, #1F75FE , #FC74FD );
 }
 .field{
     max-width: 55%;
@@ -17,6 +18,13 @@ body{
 }
 .input_text{
     margin-bottom: 10px;
+    max-width: 95%;
+}
+.input_string{
+    max-width: 95%;
+}
+.output_answer{
+    max-width: 95%;
 }
 .button{
     margin-top: 10px;
